@@ -1,0 +1,46 @@
+body {
+	padding: 40px;
+	font-size: 0px
+
+}
+.parent_box{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.big_box_up{
+	display: inline-block;
+	height: 200px;
+	width: 50%;
+	
+}
+
+.green{
+	background-color: green;
+	border: solid black 1px
+
+}
+.blue{
+	background-color: blue;
+	border: solid black 1px
+}
+.big_box_down{
+	display: inline-block;
+	height: 300px;
+	width: 33.3%;
+	
+}
+.gray{
+	background-color: gray;
+	border: solid black 1px
+
+}
+.black{
+	background-color: black;
+	border: solid black 1px
+	}
+.orange{
+	background-color: orange;
+	border: solid black 1px
+}
