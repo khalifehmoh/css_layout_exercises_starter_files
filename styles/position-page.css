@@ -12,6 +12,8 @@ ul{
 	position: absolute;
 	display: inline-flex;
 	padding-left: 70px
+	vertical-align: middle;
+	top: 5px
 }
 li::after{
 	content: " | "
