@@ -1,33 +1,25 @@
-nav{
-	padding-right: 60px;
-	padding-left: 60px;
-	position: fixed;
+.nav_bar{
 	background-color: gray;
 	height: 60px;
-	width: 100%
-
+	position: fixed;
+	width: 100%;
+	padding-right: 60px;
+	padding-left: 60px
 }
-ul{
-	list-style-type: none;
-	position: absolute;
-	display: inline-flex;
-	padding-left: 70px
-	vertical-align: middle;
-	top: 5px
-}
-li::after{
-	content: " | "
-}
-li::before{
-	content: "  ";
-	margin-left: 5px
-}
-.icon {
-	border-radius: 500px;
-	border: solid 1px black;
+.icon{
 	height: 50px;
 	width: 50px;
-	vertical-align: middle;
+	border-radius: 50%;
+	border: 1px black solid;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	vertical-align: middle;
+}
+ul{
+	display: inline-flex;
+	list-style-type: none;
+}
+li::after{
+	content: " | ";
+	margin-right: 3px;
 }
